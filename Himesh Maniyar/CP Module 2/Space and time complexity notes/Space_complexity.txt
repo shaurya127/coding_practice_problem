@@ -1,0 +1,56 @@
+****************************
+* WHAT IS SPACE COMPLEXITY *
+****************************
+
+Space Complexity of an algorithm is total space taken by the algorithm with respect to the input size.
+Auxiliary Space is the extra space or temporary space used by an algorithm.
+Space complexity includes both Auxiliary space and space used by input.
+
+If we need to create an array of size n, this will require O(n) space.
+If we create a two dimensional array of size n*n, this will require O(n^2) space.
+
+UNDERSTANDING SPACE COMPLEXITY
+
+int add (int n){
+    if (n <= 0){
+        return 0;
+    }
+    return n + add (n-1);
+}
+
+Here each call add a level to the stack :
+
+1.  add(4)
+2.    -> add(3)
+3.      -> add(2)
+4.        -> add(1)
+5.          -> add(0)
+
+Each of these calls is added to call stack and takes up actual memory.
+So it take O(n) space.
+
+*************************************************************
+* FIND SPACE COMPLEXITY FOR EACH OF THE FOLLOWING QUESTIONS *
+*************************************************************
+
+Question-1
+----------
+
+int addSequence (int n){
+    int sum = 0;
+    for (int i = 0; i < n; i++){
+        sum+ = pairSum(i, i+1);
+    }
+    return sum;
+}
+
+int pairSum(int x, int y){
+    return x + y;
+}
+
+Since function addSequence() is calling pairSum() n times, then it doesn't mean that space complexity is O(n)
+piarSum() is created once in the function addSequence() and is accessed again and again by different values.
+So call stack for pairSum is first created and then destroyed, then again created and destroyed, so space complexity is O(1)
+
+
+Both Time Complexity and Space complexity analyse the performance of an algorithm over other.
