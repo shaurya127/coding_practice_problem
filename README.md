@@ -1,7 +1,7 @@
 # coding_practice_problem
  
 
-<h1 align="center">Hi 👋, I'm Shaurya Pratap singh</h1>
+<!-- <h1 align="center">Hi 👋, I'm Shaurya Pratap singh</h1>
 <h3 align="center">A passionate software developer from MNIT JAIPUR, India</h3>
 
 - 🌱 I am a full stack web developer (backend node.js, Flask, Django & frontend react.js,Bootstrap), and Android dev
@@ -76,7 +76,7 @@ developement in Flutter.
 [![shaurya pratap github stats](https://github-readme-stats.vercel.app/api?username=shaurya127&count_private=true&theme=highcontrast&include_all_commits=true&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shaurya127&langs_count=20&theme=highcontrast&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
-
+ -->
 
 
 
